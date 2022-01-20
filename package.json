@@ -1,10 +1,13 @@
 {
-  "name": "component-library",
+  "name": "@zaelot-inc/package-lib",
   "version": "1.0.0",
   "description": "ClubOS new component library",
   "main": "index.js",
   "author": "Zaelot Inc",
-  "license": "DON'T KNOW",
+  "repository": "git://github.com/Zaelot-Inc/packageLib.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
